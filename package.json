@@ -1,0 +1,31 @@
+{
+  "name": "node_boilerplate",
+  "version": "1.0.0",
+  "description": "tutorial on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranvsin2/node_boilerplate.git"
+  },
+  "keywords": [
+    "rav"
+  ],
+  "author": "Ranvijay Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranvsin2/node_boilerplate/issues"
+  },
+  "homepage": "https://github.com/ranvsin2/node_boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
