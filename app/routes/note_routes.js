@@ -1,8 +1,7 @@
-module.exports = function(app, db) {
-    const collection = 
+module.exports = function(app, dbo) {
     app.post('/notes', (req, res) => {
       const note = { name: req.body.name, email: req.body.email,school:req.body.school};
-      db.collection('notes').insert(note, (err, result) => {
+      database.collection('notes').insertOne(note, (err, result) => {
         if (err) { 
           res.send({ 'error': 'An error has occurred' }); 
         } else {
